@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A9199A4329BFF08E00F790CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A9199A4229BFF08E00F790CC /* main.c */; };
+		A9199A4B29BFFF5C00F790CC /* DSIter.c in Sources */ = {isa = PBXBuildFile; fileRef = A9199A4A29BFFF5C00F790CC /* DSIter.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A9199A3F29BFF08E00F790CC /* DS2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DS2; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9199A4229BFF08E00F790CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A9199A4929BFFF5C00F790CC /* DSIter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSIter.h; sourceTree = "<group>"; };
+		A9199A4A29BFFF5C00F790CC /* DSIter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DSIter.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A9199A4229BFF08E00F790CC /* main.c */,
+				A9199A4929BFFF5C00F790CC /* DSIter.h */,
+				A9199A4A29BFFF5C00F790CC /* DSIter.c */,
 			);
 			path = DS2;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9199A4B29BFFF5C00F790CC /* DSIter.c in Sources */,
 				A9199A4329BFF08E00F790CC /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
